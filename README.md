@@ -6,6 +6,9 @@ The goal of this project is to demonstrate CICD concepts using Microsoft Azure s
 It consists of a python based flask application to predict housing prices in Boston (Provided in a starter code).
 
 This repositry demonstrate:
+> Setting Azure Cloud Shell
+
+> Enable GitHub actions to test a simple python based Continuous Integration flow
 
 > Deploying the Flask app in Azure CloudShell
 
@@ -26,6 +29,11 @@ This repositry demonstrate:
 
 <TODO:  
 * Architectural Diagram (Shows how key parts of the system work)>
+
+## Continuous Integration
+### Clone and build an application inside of Azure Cloud Shell
+
+ > ssh-keygen -t rsa
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
