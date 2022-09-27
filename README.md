@@ -1,6 +1,13 @@
 # Overview
+This project is part of Data Engineer for SHELL (IDA) scholarship program arranged by Udacity.
+The goal of this project is to demonstrate CICD concepts using Microsoft Azure services.
+It consists of a python based flask application to predict housing prices in Boston (Provided in a starter code).
 
-<TODO: complete this with an overview of your project>
+This repositry demonstrate:
+
+Deploying the app in Azure CloudShell
+Deploying the app as a web server using Azure App Service.
+Once anything has been changed (commits) in the github repositry, it will trigger an action for test automation (CI). A pipeline has been created using Azure DevOps tool, and also any changes will be tested in the pipeline and deployed to app service. All these steps are explianed well in the demo below.
 
 ## Project Plan
 <TODO: Project Plan
