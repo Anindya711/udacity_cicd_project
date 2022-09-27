@@ -1,4 +1,4 @@
-
+[![Python application test with Github  Actions test](https://github.com/Anindya711/udacity_cicd_project/actions/workflows/python-app.yml/badge.svg)](https://github.com/Anindya711/udacity_cicd_project/actions/workflows/python-app.yml)
 
 # Overview
 This project is part of Data Engineer for SHELL (IDA) scholarship program arranged by Udacity.
@@ -7,10 +7,13 @@ It consists of a python based flask application to predict housing prices in Bos
 
 This repositry demonstrate:
 
->> Deploying the Flask app in Azure CloudShell
->> Deploying the Flask app as a web server using Azure App Service.
->> Demonstrate CI using GitHub actions for a sample python application.
->> Demonstrate CD using Azure Devops pipeline.
+> Deploying the Flask app in Azure CloudShell
+
+> Deploying the Flask app as a web server using Azure App Service.
+
+> Demonstrate CI using GitHub actions for a sample python application.
+
+> Demonstrate CD using Azure Devops pipeline.
 
 
 ## Project Plan
