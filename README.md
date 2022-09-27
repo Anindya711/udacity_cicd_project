@@ -1,4 +1,4 @@
-[![Python application test with Github  Actions](https://github.com/Anindya711/udacity_cicd_project/actions/workflows/python-app.yml/badge.svg)](https://github.com/Anindya711/udacity_cicd_project/actions/workflows/python-app.yml)
+
 
 # Overview
 This project is part of Data Engineer for SHELL (IDA) scholarship program arranged by Udacity.
@@ -7,9 +7,11 @@ It consists of a python based flask application to predict housing prices in Bos
 
 This repositry demonstrate:
 
-Deploying the app in Azure CloudShell
-Deploying the app as a web server using Azure App Service.
-Once anything has been changed (commits) in the github repositry, it will trigger an action for test automation (CI). A pipeline has been created using Azure DevOps tool, and also any changes will be tested in the pipeline and deployed to app service. All these steps are explianed well in the demo below.
+>> Deploying the Flask app in Azure CloudShell
+>> Deploying the Flask app as a web server using Azure App Service.
+>> Demonstrate CI using GitHub actions for a sample python application.
+>> Demonstrate CD using Azure Devops pipeline.
+
 
 ## Project Plan
 <TODO: Project Plan
