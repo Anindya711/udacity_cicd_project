@@ -37,11 +37,13 @@ This repositry demonstrate:
 
 ### Enable GitHub actions to test a simple python based Continuous Integration flow
 * For this, we need to first clone our personal github repo to the azure cloud shell. We would communicate between cloud shell and github using ssh keys, so we would need to first create the ssh keys. Please follow the following steps to clone the github repo to the azure cloud shell.
- ``` ssh-keygen -t rsa
+ ```
+ ssh-keygen -t rsa
  ```
  * Copy the contents of id_rsa.pub and create a new SSH key in personal github account. Paste the content there.
  * Clone the github repo to azure cloud shell.
-  ```git@github.com:Anindya711/udacity_cicd_project.git
+  ```
+  git@github.com:Anindya711/udacity_cicd_project.git
   ```
 
 
