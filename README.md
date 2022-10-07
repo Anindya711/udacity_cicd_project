@@ -31,7 +31,11 @@ This repositry demonstrate:
 * Architectural Diagram (Shows how key parts of the system work)>
 
 ## Continuous Integration
-### Clone and build an application inside of Azure Cloud Shell
+### Setting Azure Cloud Shell
+* First, we need to setup an azure cloud shell. We can find the azure cloud shell in the azure portal. We need to click on the azure cloud shell icon and provide additional details to open up a cloud shell. Once launched the cloud shell would look like this, 
+<img width="1247" alt="Screenshot 2022-10-07 at 10 38 04 PM" src="https://user-images.githubusercontent.com/46273941/194612548-60e3477a-0662-40e1-a6c2-524574a3958d.png">
+
+### Enable GitHub actions to test a simple python based Continuous Integration flow
 
  > ssh-keygen -t rsa
 
