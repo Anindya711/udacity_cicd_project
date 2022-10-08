@@ -43,7 +43,7 @@ This repositry demonstrate:
  * Copy the contents of id_rsa.pub and create a new SSH key in personal github account. Paste the content there.
  * Clone the github repo to azure cloud shell.
   ```
-  git@github.com:Anindya711/udacity_cicd_project.git
+  git clone git@github.com:Anindya711/udacity_cicd_project.git
   ```
   <img width="1247" alt="Screenshot 2022-10-07 at 10 38 04 PM" src="https://user-images.githubusercontent.com/46273941/194612548-60e3477a-0662-40e1-a6c2-524574a3958d.png">
   
