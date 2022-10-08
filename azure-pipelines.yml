@@ -11,7 +11,7 @@ variables:
   azureServiceConnectionId: '50a4b0bd-15eb-47ac-8e83-5931c1a10399'
 
   # Web app name
-  webAppName: 'anin-udacity-webapp'
+  webAppName: 'ani-devops-webapp'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
@@ -80,7 +80,7 @@ stages:
             displayName: 'Use Python version'
 
           - task: AzureWebApp@1
-            displayName: 'Deploy Azure Web App : anin-udacity-webapp'
+            displayName: 'Deploy Azure Web App : ani-devops-webapp'
             inputs:
               azureSubscription: $(azureServiceConnectionId)
               appName: $(webAppName)
