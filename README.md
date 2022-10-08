@@ -100,6 +100,23 @@ jobs:
   * Screenshot of successful test.
   
  <img width="1790" alt="Screenshot 2022-10-08 at 10 32 53 PM" src="https://user-images.githubusercontent.com/46273941/194719026-5b9ed732-d731-4157-a6b8-da5cd9d3b0c6.png">
+ 
+ ### Deploying the Flask app in Azure CloudShell
+ 
+ * Next, we would test the Flask app locally in the azure cloud shell.
+ * As per instructions, first we need to copy all the flask starter code from this repo to our project repo. https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/tree/master/C2-AgileDevelopmentwithAzure/project/starter_files
+ * Execute the following command in the cloud shell.
+ ```
+ python app.py
+ ```
+ <img width="1288" alt="Screenshot 2022-10-08 at 10 47 40 PM" src="https://user-images.githubusercontent.com/46273941/194719582-7c63bdd9-34d1-4ec0-aedb-6af811f39c92.png">
+
+* run the following command in a different cloud shell tab. We can see the shell script returning correct output.
+
+```
+./make_prediction.sh 
+```
+<img width="964" alt="Screenshot 2022-10-08 at 10 49 22 PM" src="https://user-images.githubusercontent.com/46273941/194719668-c061473b-db65-4944-aa77-e1c283c06855.png">
 
  
 
