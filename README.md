@@ -47,8 +47,22 @@ This repositry demonstrate:
   ```
   <img width="1247" alt="Screenshot 2022-10-07 at 10 38 04 PM" src="https://user-images.githubusercontent.com/46273941/194612548-60e3477a-0662-40e1-a6c2-524574a3958d.png">
   
- * 
+ * Then follow the steps mentioned in the udacity classroom lessons to create Makefile and requirements.txt in the github project.
+ * Follow the below steps to create a python3 based virtual environment. Note, we might have to downgrade azure cloud shell python version to 3.7 to make this project work without any issues.
 
+```
+python3 -m venv ~/.udacitydevops
+source ~/.udacitydevops/bin/activate
+```
+<img width="708" alt="Screenshot 2022-10-08 at 10 09 58 PM" src="https://user-images.githubusercontent.com/46273941/194718057-c4ece7be-6b9e-4954-bd10-b5c0c671a22d.png">
+
+* Follow along the steps mentioned in the classroom to create the project scaffolding.
+* run the following commands to test if the setup is working.
+
+```
+ make all
+```
+<img width="1792" alt="Screenshot 2022-10-08 at 10 16 20 PM" src="https://user-images.githubusercontent.com/46273941/194718312-f661ea9a-0074-4c96-beb8-d97494721680.png">
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
