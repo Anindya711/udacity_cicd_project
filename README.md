@@ -118,7 +118,39 @@ jobs:
 ```
 <img width="964" alt="Screenshot 2022-10-08 at 10 49 22 PM" src="https://user-images.githubusercontent.com/46273941/194719668-c061473b-db65-4944-aa77-e1c283c06855.png">
 
+ ### Deploying the Flask app as a web server using Azure App Service
  
+ * Create an azure web app from azure cloud shell. We can specify the python version while spinning up the webapp.
+
+```
+az webapp up -n ani-udacity-webapp -g anidevops --runtime "PYTHON:3.7"
+```
+<img width="1355" alt="Screenshot 2022-10-08 at 11 57 00 PM" src="https://user-images.githubusercontent.com/46273941/194722168-d3d212ee-abd9-4162-8cac-8377916ea467.png">
+
+* Once, the webapp is up and running, we can test the deployment by going to the website.
+<img width="1530" alt="Screenshot 2022-10-08 at 11 55 51 PM" src="https://user-images.githubusercontent.com/46273941/194722141-a1ce343b-cb40-4131-9abe-f8a7bdfc20b9.png">
+
+### Creating the Azure Devops pipeline
+* We can see the app is now deployed to azure app service. Now, the final part of the project is to build a azure devops pipeline for continuous delivery.
+More information on this process can be found here. The basic steps to set up the pipeline are:
+
+Go to https://dev.azure.com and sign in. Create an Azure Devops organization for hosting the project.
+Create a new private project. -Create a new service connection to Azure Resource Manager, select subscription and the app service.
+Create a new pipeline linked to your GitHub repo and select Python to Linux Web App on Azure to reuse existing template.
+
+Screenshot of the azure devops pipeline successful run:
+<img width="1521" alt="Screenshot 2022-10-09 at 12 08 09 AM" src="https://user-images.githubusercontent.com/46273941/194722588-e73bc28d-1fb5-43b9-b83e-70870f454f01.png">
+
+
+Screenshot of the flask app output:
+<img width="893" alt="Screenshot 2022-10-09 at 12 08 41 AM" src="https://user-images.githubusercontent.com/46273941/194722607-6c24e24c-058d-4543-963a-97469d870cd7.png">
+
+
+
+Screenshot of azure website after updating the github code:
+
+
+
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
