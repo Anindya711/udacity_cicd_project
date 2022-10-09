@@ -119,6 +119,7 @@ jobs:
 <img width="964" alt="Screenshot 2022-10-08 at 10 49 22 PM" src="https://user-images.githubusercontent.com/46273941/194719668-c061473b-db65-4944-aa77-e1c283c06855.png">
 
  ### Deploying the Flask app as a web server using Azure App Service
+ [![Build Status](https://dev.azure.com/jayani1617/udacity-cicd-project/_apis/build/status/Anindya711.udacity_cicd_project%20(1)?branchName=main)](https://dev.azure.com/jayani1617/udacity-cicd-project/_build/latest?definitionId=6&branchName=main)
  
  * Create an azure web app from azure cloud shell. We can specify the python version while spinning up the webapp.
 
@@ -141,47 +142,21 @@ Create a new pipeline linked to your GitHub repo and select Python to Linux Web 
 Screenshot of the azure devops pipeline successful run:
 <img width="1521" alt="Screenshot 2022-10-09 at 12 08 09 AM" src="https://user-images.githubusercontent.com/46273941/194722588-e73bc28d-1fb5-43b9-b83e-70870f454f01.png">
 
-
 Screenshot of the flask app output:
 <img width="893" alt="Screenshot 2022-10-09 at 12 08 41 AM" src="https://user-images.githubusercontent.com/46273941/194722607-6c24e24c-058d-4543-963a-97469d870cd7.png">
 
-
-
 Screenshot of azure website after updating the github code:
 
-
-
-
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
-
-* Project running on Azure App Service
-
-* Project cloned into Azure Cloud Shell
-
-* Passing tests that are displayed after running the `make all` command from the `Makefile`
-
-* Output of a test run
-
-* Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
-
-* Running Azure App Service from Azure Pipelines automatic deployment
-
-* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
-The output should look similar to this:
-
-```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
-```
+<img width="1102" alt="Screenshot 2022-10-09 at 10 14 05 AM" src="https://user-images.githubusercontent.com/46273941/194738509-295f113b-3041-44c7-b3c2-3937f44be069.png">
 
 * Output of streamed log files from deployed application
 
-> 
+<img width="1789" alt="Screenshot 2022-10-09 at 10 17 24 AM" src="https://user-images.githubusercontent.com/46273941/194738568-4e1039a5-8ced-4a6f-9057-26ed6c9255a7.png">
+
 
 ## Enhancements
-
-<TODO: A short description of how to improve the project in the future>
+* We can try to build more on the website to make it user friendly. We can create a small webapp to test the predictions based on user input.
+* We can try to improve model performance.
 
 ## Demo 
 
