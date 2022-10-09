@@ -133,7 +133,7 @@ az webapp up -n ani-udacity-webapp -g anidevops --runtime "PYTHON:3.7"
 
 ### Creating the Azure Devops pipeline
 * We can see the app is now deployed to azure app service. Now, the final part of the project is to build a azure devops pipeline for continuous delivery.
-More information on this process can be found here. The basic steps to set up the pipeline are:
+More information on this process can be found [here](https://learn.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops&WT.mc_id=udacity_learn-wwl). The basic steps to set up the pipeline are:
 
 Go to https://dev.azure.com and sign in. Create an Azure Devops organization for hosting the project.
 Create a new private project. -Create a new service connection to Azure Resource Manager, select subscription and the app service.
