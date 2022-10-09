@@ -22,7 +22,7 @@ This repositry demonstrate:
 ## Project Plan
 
 * A link to a Trello board for the project => https://trello.com/b/CPy6L1Pe/azure-cicd-project
-* A link to a spreadsheet that includes the project plan => 
+* A link to a spreadsheet that includes the project plan => https://github.com/Anindya711/udacity_cicd_project/blob/main/project-schedule.xlsx
 
 ## Instructions
 
