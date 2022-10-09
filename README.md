@@ -20,14 +20,13 @@ This repositry demonstrate:
 
 
 ## Project Plan
-<TODO: Project Plan
 
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+* A link to a Trello board for the project => https://trello.com/b/CPy6L1Pe/azure-cicd-project
+* A link to a spreadsheet that includes the project plan => 
 
 ## Instructions
 
-* Architectural Diagram (Shows how key parts of the system work)>
+* Architectural Diagram
 
 <img width="816" alt="Screenshot 2022-10-09 at 12 32 18 PM" src="https://user-images.githubusercontent.com/46273941/194742758-9d7130a5-9a83-42b7-a91f-c0d5d54f0aa3.png">
 
