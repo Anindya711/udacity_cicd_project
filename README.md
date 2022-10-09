@@ -124,7 +124,7 @@ jobs:
  * Create an azure web app from azure cloud shell. We can specify the python version while spinning up the webapp.
 
 ```
-az webapp up -n ani-udacity-webapp -g anidevops --runtime "PYTHON:3.7"
+az webapp up -n ani-devops-webapp -g anidevops --runtime "PYTHON:3.7"
 ```
 <img width="1355" alt="Screenshot 2022-10-08 at 11 57 00 PM" src="https://user-images.githubusercontent.com/46273941/194722168-d3d212ee-abd9-4162-8cac-8377916ea467.png">
 
