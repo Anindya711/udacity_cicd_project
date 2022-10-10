@@ -155,6 +155,22 @@ Screenshot of azure website after updating the github code:
 <img width="1789" alt="Screenshot 2022-10-09 at 10 17 24 AM" src="https://user-images.githubusercontent.com/46273941/194738568-4e1039a5-8ced-4a6f-9057-26ed6c9255a7.png">
 
 ## Load Test
+We will use locust to load test our website.
+First install locust using below command.
+```
+pip install locust
+```
+Then, create a simple locust file to do our test.
+And then run this command to start locust
+```
+locust --f locustfile.py
+```
+Once it starts, it will open in localhost:8089 location. We can go there and do load testing.
+Here is a screenshot of our locust ui.
+
+<img width="1792" alt="Screenshot 2022-10-10 at 8 14 19 PM" src="https://user-images.githubusercontent.com/46273941/194892743-568a2aef-5b08-4016-848d-44c18fa91938.png">
+
+<img width="1787" alt="Screenshot 2022-10-10 at 8 14 46 PM" src="https://user-images.githubusercontent.com/46273941/194892829-df84a229-b8b9-4664-8b08-f329331d46c1.png">
 
 
 ## Enhancements
@@ -163,6 +179,6 @@ Screenshot of azure website after updating the github code:
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
+https://www.youtube.com/watch?v=yszTTINcu1g
 
 
