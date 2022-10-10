@@ -153,6 +153,8 @@ Screenshot of azure website after updating the github code:
 
 <img width="1789" alt="Screenshot 2022-10-09 at 10 17 24 AM" src="https://user-images.githubusercontent.com/46273941/194738568-4e1039a5-8ced-4a6f-9057-26ed6c9255a7.png">
 
+## Load Test
+
 
 ## Enhancements
 * We can try to build more on the website to make it user friendly. We can create a small webapp to test the predictions based on user input.
