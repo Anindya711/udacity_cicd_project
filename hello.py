@@ -1,6 +1,6 @@
 def toyou(x):
     '''
-        test function
+        test function for github actions
     '''
     return "hi %s" % x
 
