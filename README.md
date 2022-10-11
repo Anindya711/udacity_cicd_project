@@ -46,6 +46,8 @@ This repositry demonstrate:
   ```
   git clone git@github.com:Anindya711/udacity_cicd_project.git
   ```
+<img width="1629" alt="Screenshot 2022-10-11 at 8 02 24 AM" src="https://user-images.githubusercontent.com/46273941/194983961-31fde976-a482-4932-b5c9-7caf8dad1ef3.png">
+
   <img width="1247" alt="Screenshot 2022-10-07 at 10 38 04 PM" src="https://user-images.githubusercontent.com/46273941/194612548-60e3477a-0662-40e1-a6c2-524574a3958d.png">
   
  * Then follow the steps mentioned in the udacity classroom lessons to create Makefile and requirements.txt in the github project.
