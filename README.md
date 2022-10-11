@@ -143,6 +143,8 @@ More information on this process can be found [here](https://learn.microsoft.com
 Screenshot of the azure devops pipeline successful run:
 <img width="1521" alt="Screenshot 2022-10-09 at 12 08 09 AM" src="https://user-images.githubusercontent.com/46273941/194722588-e73bc28d-1fb5-43b9-b83e-70870f454f01.png">
 
+Screenshot 2022-10-10 at 11.16.38 PM<img width="1792" alt="image" src="https://user-images.githubusercontent.com/46273941/194925063-515be15b-112d-42ae-9cef-ce45d8576b06.png">
+
 Screenshot of the flask app output:
 <img width="893" alt="Screenshot 2022-10-09 at 12 08 41 AM" src="https://user-images.githubusercontent.com/46273941/194722607-6c24e24c-058d-4543-963a-97469d870cd7.png">
 
