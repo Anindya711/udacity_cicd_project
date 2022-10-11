@@ -183,6 +183,6 @@ Here is a screenshot of our locust ui.
 
 ## Demo 
 
-https://www.youtube.com/watch?v=yszTTINcu1g
+https://youtu.be/1HCvgexc9Qo
 
 
