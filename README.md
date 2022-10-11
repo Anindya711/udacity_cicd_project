@@ -131,6 +131,8 @@ az webapp up -n ani-devops-webapp -g anidevops --runtime "PYTHON:3.7"
 ```
 <img width="1355" alt="Screenshot 2022-10-08 at 11 57 00 PM" src="https://user-images.githubusercontent.com/46273941/194722168-d3d212ee-abd9-4162-8cac-8377916ea467.png">
 
+<img width="1791" alt="Screenshot 2022-10-11 at 9 18 33 AM" src="https://user-images.githubusercontent.com/46273941/194993013-397fbace-d7b0-44df-bf17-cb005412c1f6.png">
+
 * Once, the webapp is up and running, we can test the deployment by going to the website.
 <img width="1530" alt="Screenshot 2022-10-08 at 11 55 51 PM" src="https://user-images.githubusercontent.com/46273941/194722141-a1ce343b-cb40-4131-9abe-f8a7bdfc20b9.png">
 
